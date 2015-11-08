@@ -13,30 +13,48 @@ namespace Pupilate.Web.identicate {
     public partial class master {
         
         /// <summary>
-        /// masterHead control.
+        /// masterHeadPlaceHolder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder masterHead;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder masterHeadPlaceHolder;
         
         /// <summary>
-        /// frm control.
+        /// MasterDashboardWelcome control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm frm;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder MasterDashboardWelcome;
         
         /// <summary>
-        /// ContentPlaceHolder1 control.
+        /// masterBodyContainer control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder masterBodyContainer;
+        
+        /// <summary>
+        /// masterBodyLeft control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder masterBodyLeft;
+        
+        /// <summary>
+        /// masterBodyRight control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder masterBodyRight;
     }
 }

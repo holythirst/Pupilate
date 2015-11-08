@@ -125,8 +125,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="about-us.html" />
-    <Content Include="apamo.sql" />
+    <Content Include="aboutus.html" />
+    <Content Include="contactus.html" />
+    <Content Include="helpsupport.html" />
+    <Content Include="identicate\dashboard.aspx" />
+    <Content Include="ourteam.html" />
+    <Content Include="query\apamo.sql" />
     <Content Include="assets\css\owl.video.play.html" />
     <Content Include="assets\css\owl.video.play.png" />
     <Content Include="assets\css\preload.css" />
@@ -157,7 +161,6 @@
     <Content Include="assets\fonts\fontawesome-webfonte0a5.svg" />
     <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="assets\fonts\socialglyphs-webfont.svg" />
-    <Content Include="assets\img\back.jpg" />
     <Content Include="assets\img\back.png" />
     <Content Include="assets\img\background-scroller.jpg" />
     <Content Include="assets\img\background-sidebar.jpg" />
@@ -395,14 +398,13 @@
     <Content Include="assets\js\syntaxhighlighter\shLegacy.js" />
     <Content Include="assets\js\validation.js" />
     <Content Include="assets\js\vendors.js" />
+    <Content Include="commingsoon.html" />
     <Content Include="identicate\signin.aspx" />
     <Content Include="index.html" />
     <Content Include="identicate\Web.config" />
-    <Content Include="pupilate.sql" />
-    <Content Include="thanks-payment.htm" />
-    <Content Include="thanks.htm" />
+    <Content Include="page404.html" />
+    <Content Include="query\pupilate.sql" />
     <Content Include="ViewSwitcher.ascx" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\syntaxhighlighter.zip" />
@@ -430,17 +432,15 @@
     <Content Include="assets\js\jquery.min.map" />
     <Content Include="assets\js\lightbox.min.map" />
     <Content Include="identicate\master.Master" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="App_Start\AuthConfig.cs" />
-    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="identicate\dashboard.aspx.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="identicate\dashboard.aspx.designer.cs">
+      <DependentUpon>dashboard.aspx</DependentUpon>
+    </Compile>
     <Compile Include="identicate\master.Master.cs">
       <DependentUpon>master.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -472,6 +472,15 @@
     <Folder Include="assets\img\sch\" />
     <Folder Include="assets\img\stu\" />
     <Folder Include="common\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

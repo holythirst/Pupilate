@@ -10,7 +10,7 @@
 
     <title>aui360 - Sign In</title>
 
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="../assets/img/favicon.png" />
 
     <meta name="description" content="" />
 
@@ -27,8 +27,9 @@
     <div class="paper-back-full">
         <div class="login-form-full">
             <div class="fix-box">
-                <div class="text-center title-logo animated fadeInDown animation-delay-5">aui<span>360 <sup>&reg </sup></span>Pupilate</div>
-                <div class="text-center animated fadeInDown animation-delay-5">Sign<span> In</span></div>
+                <div class="text-center title-logo animated fadeInDown animation-delay-5">
+                    aui<span>360<sup>&reg </sup></span>Pupilate <br /><br /> Sign In
+                </div>
 
                 <div class="transparent-div no-padding animated fadeInUp animation-delay-8">
                     <ul class="nav nav-tabs nav-tabs-transparent">
