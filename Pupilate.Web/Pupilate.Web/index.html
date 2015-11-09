@@ -3,7 +3,6 @@
 <head>
     <title>Welcome to pupilate</title>
     <meta charset="utf-8" />
-    <!--<title>Automate Universal Innovations</title>-->
     <meta name="Description" content="Automate Universal Innovations (Limited) is into (but not limited to) Information technology services, software development, information technological and educational consulting services, computer software, web development, training, programming,project management, custom software development, COTS software selection, business analysis, and IT assessments, ICT assessments, Olamide Ijaduola, Ahmed Faruk" />
 
     <meta name="KeyWords" content="Information technology services, software development, information technological and educational consulting services, computer software, web development, training, programming,project management, custom software development, COTS software selection, business analysis, IT assessments, ICT assessments, Olamide Ijaduola, Ahmed Faruk" />
@@ -18,16 +17,49 @@
     <script type="text/javascript" src="../assets/js/javascripts.js"></script>
     <script type="text/javascript" src="../assets/js/livevalidation_standalone.js"></script>
     <script type="text/javascript" src="../assets/js/app_grade.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-1.10.2.js"></script>
 
     <link href="../assets/css/vendors.css" rel="stylesheet" />
     <link href="../assets/css/syntaxhighlighter/shCore.css" rel="stylesheet" />
     <link href="../assets/css/style-green5.css" rel="stylesheet" title="default" />
     <link href="../assets/css/width-full.css" rel="stylesheet" title="default" />
+
+    <script src="assets/js/jquery-1.10.2.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#hid-modal").click();
+        });
+    </script>
 </head>
 
 <body>
+
     <div id="sb-site">
         <div class="boxed">
+
+            <!--Modal Starts Here-->
+            <input type="hidden" id="hid-modal" data-toggle="modal" data-target="#myModal" />
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title" id="myModalLabel">Welcome - About Pupilate</h4>
+                        </div>
+                        <div class="modal-body">
+                            Custom and unique software development is an intricate part of business solutions for small and large organizations. In today's business, most organizations find out that they are losing money because of the lack of, or mis use of a software application. Corporate organizations do not need a big budget to design software that can ease business activities, in fact due to the rate of change in technology as well as growth; IT products are becoming more and more affordable, both custom and non-custom applications. We at Bud Innovative believe that with the right application(s) in your organization, you can maximize the use of your human resources, stabilize your business and create time for creative and innovative ideas to boost your company profile. We will consult with your organization as to determine where time, as a unique resource is being spent, and determine/design a way to optimize time use by introducing an application that will be unique to your business, department or office.
+                        </div>
+                        <div class="modal-footer">
+                            ...
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Modal Stops Here-->
+
+            <!--Header-full starts here-->
             <header id="header-full-top" class="hidden-xs header-full">
                 <div class="container">
                     <div class="header-full-title">
@@ -44,7 +76,7 @@
                     <!--Login Ends Here-->
                 </div>
             </header>
-            <!-- header-full -->
+            <!-- Header-full Ends Here-->
 
             <!-- Nav Bar Begins Here-->
             <nav class="navbar navbar-default navbar-header-full navbar-dark yamm navbar-static-top" role="navigation" id="header">
@@ -57,22 +89,9 @@
                         </button>
                         <a id="ar-brand" class="navbar-brand hidden-lg hidden-md hidden-sm" href="index.html">automate <span>universal</span> innovations</a>
                     </div> <!-- navbar-header -->
-                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    
                     <!--Nav Menu Start-->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        
-                    <!--<ul class="nav navbar-nav">
-                            <li class="dropdown">
-                                <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Home</a>
-                                <ul class="dropdown-menu dropdown-menu-left">
-                                    <li role="presentation" class="dropdown-header">aui360 <sup>&reg;</sup></li>
-                                    <li><a href="../index.html"> Home <a/></li>
-                                </ul>
-                            </li>
-                        </ul>-->       
-                    
-                           
-                    
                         <ul class="nav navbar-nav">
                             <li class="dropdown">
                                 <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Home</a>
@@ -83,26 +102,26 @@
                             </li>
                         </ul>                 
 
-                            <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav">
                                 <li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">About Us</a>
                                     <ul class="dropdown-menu dropdown-menu-left">
-                                        <li><a href="home_polygon.html"> About Us </a></li>
+                                        <li><a href="../aboutus.html"> About Us </a></li>
                                     </ul>
                                 </li>
                             </ul>
 
-                            <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav">
                                 <li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Our Team</a>
                                     <ul class="dropdown-menu dropdown-menu-left">
-                                        <li><a href="home_polygon.html"> Management Team </a></li>
-                                        <li><a href="home_polygon.html"> Developer Team </a></li>
+                                        <li><a href="../ourteam.html"> Management Team </a></li>
+                                        <li><a href="../ourteam.html"> Developer Team </a></li>
                                     </ul>
                                 </li>
                             </ul>
 
-                            <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav">
                                 <li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Contact Us</a>
                                     <ul class="dropdown-menu dropdown-menu-left">
@@ -111,21 +130,20 @@
                                 </li>
                             </ul>
 
-                            <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav">
                                 <li class="dropdown">
                                     <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Help &amp; Support</a>
                                     <ul class="dropdown-menu dropdown-menu-left">
-                                        <li><a href="home_polygon.html"> Site Map </a></li>
-                                        <li><a href="home_polygon.html"> FAQ</a></li>
-                                        <li><a href="home_polygon.html"> News &amp; Updates </a></li>
+                                        <li><a href="../supportcenter.html"> Support Centre </a></li>
+                                        <li><a href="../faq.html"> FAQ</a></li>
+                                        <li><a href="../newsupdate.html"> News &amp; Updates </a></li>
 
                                         <li role="presentation" class="dropdown-header">Browse Pupilate Features</li>
-                                        <li><a href="home_polygon.html"> Feature Tour </a></li>
+                                        <li><a href="../featurestour.html"> Feature Tour </a></li>
                                     </ul>
                                 </li>
                             </ul>
-
-                        </ul></div>
+                    </div>
                     <!-- navbar-collapse -->
                     <!-- Nav Menu Ends -->
 
@@ -208,7 +226,7 @@
                             <div class="text-icon wow fadeInUp">
                                 <span class="icon-ar icon-ar-lg"><i class="fa fa-cloud"></i></span>
                                 <div class="text-icon-content">
-                                    <h3 class="no-margin">Cloud Computing</h3>
+                                    <h3 class="no-margin">IT Consultant</h3>
                                     <p>Praesentium cumque voluptate harum quae doloribus, atque error debitis, amet velit in similique, necessitatibus odit vero sunt.</p>
                                 </div>
                             </div>
@@ -226,7 +244,7 @@
                             <div class="text-icon wow fadeInUp">
                                 <span class="icon-ar icon-ar-lg"><i class="fa fa-tablet"></i></span>
                                 <div class="text-icon-content">
-                                    <h3 class="no-margin">Mobile and Tablet Apps</h3>
+                                    <h3 class="no-margin">Mobile and Tablet Apps Development</h3>
                                     <p>Praesentium cumque voluptate harum quae doloribus, atque error debitis, amet velit in similique, necessitatibus odit vero sunt.</p>
                                 </div>
                             </div>
@@ -331,6 +349,10 @@
             <!--Footer Page Ends Here-->
         </div> <!-- boxed -->
     </div> <!-- sb-site -->
+
+    <div id="back-top">
+        <a href="#header"><i class="fa fa-chevron-up"></i></a>
+    </div>
 
     <script src="../assets/js/vendors.js"></script>
     <script src="../assets/js/styleswitcher.js"></script>

@@ -127,8 +127,12 @@
   <ItemGroup>
     <Content Include="aboutus.html" />
     <Content Include="contactus.html" />
+    <Content Include="faq.html" />
+    <Content Include="featurestour.html" />
     <Content Include="helpsupport.html" />
+    <Content Include="identicate\chronology.aspx" />
     <Content Include="identicate\dashboard.aspx" />
+    <Content Include="newsupdate.html" />
     <Content Include="ourteam.html" />
     <Content Include="query\apamo.sql" />
     <Content Include="assets\css\owl.video.play.html" />
@@ -404,7 +408,13 @@
     <Content Include="identicate\Web.config" />
     <Content Include="page404.html" />
     <Content Include="query\pupilate.sql" />
+    <Content Include="packages.config" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="supportcenter.html" />
     <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\syntaxhighlighter.zip" />
@@ -434,6 +444,14 @@
     <Content Include="identicate\master.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="common\SubscriberHandler.cs" />
+    <Compile Include="identicate\chronology.aspx.cs">
+      <DependentUpon>chronology.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="identicate\chronology.aspx.designer.cs">
+      <DependentUpon>chronology.aspx</DependentUpon>
+    </Compile>
     <Compile Include="identicate\dashboard.aspx.cs">
       <DependentUpon>dashboard.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -471,7 +489,6 @@
     <Folder Include="assets\img\emp\" />
     <Folder Include="assets\img\sch\" />
     <Folder Include="assets\img\stu\" />
-    <Folder Include="common\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
