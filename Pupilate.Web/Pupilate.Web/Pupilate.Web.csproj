@@ -341,7 +341,6 @@
     <Content Include="assets\img\logo_raw_white.png" />
     <Content Include="assets\img\logo_white.png" />
     <Content Include="assets\img\next.png" />
-    <Content Include="assets\img\plan.jpg" />
     <Content Include="assets\img\preload.gif" />
     <Content Include="assets\img\prev.png" />
     <Content Include="assets\img\report-card.png" />
@@ -416,6 +415,7 @@
     <Content Include="page404.html" />
     <Content Include="query\pupilate.sql" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\pupilate.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
@@ -452,7 +452,9 @@
     <Content Include="identicate\master.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="common\SubscriberHandler.cs" />
+    <Compile Include="common\SubscriberHandler.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="identicate\chronology.aspx.cs">
       <DependentUpon>chronology.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
