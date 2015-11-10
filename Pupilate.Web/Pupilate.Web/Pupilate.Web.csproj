@@ -126,6 +126,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutus.html" />
+    <Content Include="assets\img\demo\agile.jpg" />
+    <Content Include="assets\img\demo\consult.jpg" />
+    <Content Include="assets\img\demo\data-migrate.jpg" />
     <Content Include="assets\img\demo\maf.JPG" />
     <Content Include="contactus.html" />
     <Content Include="enhanceservice.html" />
