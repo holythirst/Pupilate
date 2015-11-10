@@ -34,7 +34,7 @@
             <header id="header-full-top" class="hidden-xs header-full">
                 <div class="container">
                     <div class="header-full-title">
-                        <h1 class="animated fadeInRight"><a href="index.php">aui360<sup>&reg</sup> <span>Pupilate</span></a></h1>
+                        <h1 class="animated fadeInRight"><a href="index.html">aui360<sup>&reg</sup> <span>Pupilate</span></a></h1>
                         <p class="animated pull-left"></p>
                     </div>
 
