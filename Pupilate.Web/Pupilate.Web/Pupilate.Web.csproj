@@ -126,14 +126,18 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutus.html" />
+    <Content Include="assets\img\demo\maf.JPG" />
     <Content Include="contactus.html" />
+    <Content Include="enhanceservice.html" />
     <Content Include="faq.html" />
     <Content Include="featurestour.html" />
     <Content Include="helpsupport.html" />
     <Content Include="identicate\chronology.aspx" />
     <Content Include="identicate\dashboard.aspx" />
+    <Content Include="implementservice.html" />
     <Content Include="newsupdate.html" />
     <Content Include="ourteam.html" />
+    <Content Include="pricing.html" />
     <Content Include="query\apamo.sql" />
     <Content Include="assets\css\owl.video.play.html" />
     <Content Include="assets\css\owl.video.play.png" />
@@ -412,6 +416,7 @@
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="services.html" />
     <Content Include="supportcenter.html" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
