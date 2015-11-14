@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pupilate.Web", "Pupilate.Web\Pupilate.Web.csproj", "{B0D9A178-AD25-4267-BFD9-496D8AF0123E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pupilate.Data", "Pupilate.Data\Pupilate.Data.csproj", "{3C6E2673-0D89-40E0-AE8A-487D6CAF1546}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B0D9A178-AD25-4267-BFD9-496D8AF0123E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D9A178-AD25-4267-BFD9-496D8AF0123E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D9A178-AD25-4267-BFD9-496D8AF0123E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6E2673-0D89-40E0-AE8A-487D6CAF1546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6E2673-0D89-40E0-AE8A-487D6CAF1546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6E2673-0D89-40E0-AE8A-487D6CAF1546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6E2673-0D89-40E0-AE8A-487D6CAF1546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
