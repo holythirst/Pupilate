@@ -499,6 +499,7 @@
     <Folder Include="assets\img\emp\" />
     <Folder Include="assets\img\sch\" />
     <Folder Include="assets\img\stu\" />
+    <Folder Include="sql\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
