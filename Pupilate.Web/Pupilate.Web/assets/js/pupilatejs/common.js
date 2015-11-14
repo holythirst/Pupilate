@@ -1,4 +1,4 @@
-﻿	function GetYear(element)
+﻿function GetYear(element)
 	{
 	    var dteNow = new Date();
 	    var intYear = dteNow.getFullYear();
@@ -6,3 +6,8 @@
 	    //element.innerHTML = intYear.toString();
 	    //return intYear;
 	}
+
+function GetMenu(div)
+{
+    
+}
