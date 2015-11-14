@@ -420,6 +420,7 @@
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="services.html" />
+    <Content Include="sql\pupilate.sql" />
     <Content Include="supportcenter.html" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
@@ -521,7 +522,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>4092</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
