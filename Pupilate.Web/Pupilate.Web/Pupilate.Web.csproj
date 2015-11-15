@@ -420,8 +420,6 @@
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="services.html" />
-    <Content Include="sql\pupilate.sql" />
-    <Content Include="sql\pupilatepupilate_001.sql" />
     <Content Include="supportcenter.html" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />

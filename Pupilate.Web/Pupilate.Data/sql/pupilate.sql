@@ -2,7 +2,7 @@
 Mrs. Iyabowale Oluwafunmilayo ONIKO
 Mrs. Rukky DOYIN-SALAU
 0139865690
-Dreamweaver $485 ==> By Olamide
+Dreamweaver $485 ==> By Olamide 
 Website Template $110
 Asp.Net Report Maker $180
 Paypal API Payment Gateway $100
@@ -13,7 +13,7 @@ System Upgrade & Internet = N43,000 ==> By Olamide
 PIN = ctrl end
 */
 
-/**
+/*
 TO do
 View Minimum score/class,term,session
 View Maximum score/class,term,session
