@@ -421,6 +421,7 @@
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="services.html" />
     <Content Include="sql\pupilate.sql" />
+    <Content Include="sql\pupilatepupilate_001.sql" />
     <Content Include="supportcenter.html" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
@@ -500,7 +501,6 @@
     <Folder Include="assets\img\emp\" />
     <Folder Include="assets\img\sch\" />
     <Folder Include="assets\img\stu\" />
-    <Folder Include="sql\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Web.config" />
