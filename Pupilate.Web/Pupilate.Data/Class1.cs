@@ -8,5 +8,6 @@ namespace Pupilate.Data
 {
     public class Class1
     {
+        
     }
 }
