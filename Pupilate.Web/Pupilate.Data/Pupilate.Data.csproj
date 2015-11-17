@@ -54,6 +54,7 @@
     <None Include="App.Config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="sql\pupilate.sql" />
     <Content Include="sql\pupilatepupilate_001.sql" />
   </ItemGroup>
   <ItemGroup>
