@@ -137,6 +137,7 @@
     <Content Include="helpsupport.html" />
     <Content Include="identicate\chronology.aspx" />
     <Content Include="identicate\dashboard.aspx" />
+    <Content Include="identicate\masterconfig.aspx" />
     <Content Include="implementservice.html" />
     <Content Include="newsupdate.html" />
     <Content Include="ourteam.html" />
@@ -474,6 +475,13 @@
     </Compile>
     <Compile Include="identicate\master.Master.designer.cs">
       <DependentUpon>master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="identicate\masterconfig.aspx.cs">
+      <DependentUpon>masterconfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="identicate\masterconfig.aspx.designer.cs">
+      <DependentUpon>masterconfig.aspx</DependentUpon>
     </Compile>
     <Compile Include="identicate\signin.aspx.cs">
       <DependentUpon>signin.aspx</DependentUpon>

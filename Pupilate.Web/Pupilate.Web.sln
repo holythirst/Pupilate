@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pupilate.Model", "Pupilate.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pupilate.Data", "Pupilate.Data\Pupilate.Data.csproj", "{615FCF6C-2639-4300-970F-1E69A2B4761D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pupilate.Common", "Pupilate.Common\Pupilate.Common.csproj", "{A665B431-CF51-4AAA-86F3-AF7BA212822D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{615FCF6C-2639-4300-970F-1E69A2B4761D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{615FCF6C-2639-4300-970F-1E69A2B4761D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{615FCF6C-2639-4300-970F-1E69A2B4761D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A665B431-CF51-4AAA-86F3-AF7BA212822D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A665B431-CF51-4AAA-86F3-AF7BA212822D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A665B431-CF51-4AAA-86F3-AF7BA212822D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A665B431-CF51-4AAA-86F3-AF7BA212822D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
